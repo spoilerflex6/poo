@@ -3,7 +3,7 @@ import subprocess
 import datetime
 import os
 
-bot = telebot.TeleBot('8149841430:AAHB0mdqFH-9Pq6O57C7-Wjnl7bcX3YI_ww')
+bot = telebot.TeleBot('7569800573:AAGgwAtuE2KQuzy0o1dGhOlHXrJ2GPYOUz4')
 
 admin_id = {"6140583954"}
 USER_FILE = "users.txt"
